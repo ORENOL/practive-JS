@@ -10,6 +10,12 @@
     - Live Server
 
 ## TODO
+
+<details markdown="1">
+<summary>첫 HTML 연습 완료</summary>
+
+### <a href="https://github.com/ORENOL/practive-JS/tree/main/01">01 폴더</a>
+
 - [x] 헤더
 - [x] 메인
 - [x] 섹션
@@ -17,6 +23,8 @@
     - [x] CSS
     - [x] JavaScript
     - [x] React
+    
+</details>
 
 ## Ref.
 - [.gitignore](https://www.toptal.com/developers/gitignore)
