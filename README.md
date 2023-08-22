@@ -10,11 +10,12 @@
     - Live Server
 
 ## TODO
-
 <details markdown="1">
-<summary>첫 HTML 연습 완료</summary>
+<summary>"pico.css 활용 예제"  완료</summary>
 
 ### <a href="https://github.com/ORENOL/practive-JS/tree/main/01">01 폴더</a>
+
+<hr/>
 
 - [x] 헤더
 - [x] 메인
@@ -26,9 +27,26 @@
     
 </details>
 
+<br/><br/>
+
+<details markdown="1">
+<summary>두번째 연습 진행 중</summary>
+
+### <a href="">02 폴더</a>
+
+<hr/>
+
+- [ ] 자바스크립트 구현중
+
+    
+</details>
+
+<br/><br/>
+
 ## Ref.
 - [.gitignore](https://www.toptal.com/developers/gitignore)
-- [PicoCSS](https://picocss.com/)
+- [pico.css](https://picocss.com/)
+- [W3School](https://www.w3schools.com/)
 
 ## Lisence
 - MIT
