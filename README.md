@@ -11,12 +11,12 @@
 
 ## TODO
 - [x] 헤더
-- [ ] 메인
-- [ ] 섹션
-    - [ ] HTML
-    - [ ] CSS
-    - [ ] JavaScript
-    - [ ] React
+- [x] 메인
+- [x] 섹션
+    - [x] HTML
+    - [x] CSS
+    - [x] JavaScript
+    - [x] React
 
 ## Ref.
 - [.gitignore](https://www.toptal.com/developers/gitignore)
