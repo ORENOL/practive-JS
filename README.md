@@ -10,7 +10,7 @@
     - Live Server
 
 ## TODO
-- [ ] 헤더
+- [x] 헤더
 - [ ] 메인
 - [ ] 섹션
     - [ ] HTML
