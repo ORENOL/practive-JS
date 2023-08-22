@@ -1,0 +1,25 @@
+.contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.content > div {
+    width: 20%;
+
+}
+
+.contents > p {
+    width: 80%
+}
+
+article .contents-img {
+    margin-right: 2rem;
+}
+
+.contents img {
+    border-radius: 50%;   /* 컨텐츠를 동그랗게 깎음 */
+    height: 200px;
+}
