@@ -22,4 +22,5 @@ article .contents-img {
 .contents img {
     border-radius: 50%;   /* 컨텐츠를 동그랗게 깎음 */
     height: 200px;
+    width: 200px;
 }
