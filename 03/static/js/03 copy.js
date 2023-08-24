@@ -1,4 +1,4 @@
-// DOM  생성 함수/변수
+// DOM  생성 함수/상수
 const domCreate = () => {
     console.log("dom 생성")
 
@@ -10,7 +10,7 @@ const domCreate = () => {
     document.getElementById("adiv").append(myh2);
 }
 
-// DOM 읽기 함수/변수
+// DOM 읽기 함수/상수
 const domRead = () => {
     console.log("dom 읽기")
 
@@ -21,7 +21,7 @@ const domRead = () => {
     console.log("textContent => ", document.querySelector("h1").textContent);
 }
 
-// DOM 수정 함수/변수
+// DOM 수정 함수/상수
 const domUpdate = () => {
     console.log("dom 수정")
 
@@ -35,7 +35,7 @@ const domUpdate = () => {
     // myh1.textContent = "<h3>자바스크립트 수정됨</h3>"
 }
 
-// DOM 삭제 함수/변수
+// DOM 삭제 함수/상수
 const domDelete = () => {
     console.log("dom 삭제")
 
@@ -48,7 +48,7 @@ const domDelete = () => {
     }
 }
 
-// 버튼 생성 함수/변수
+// 버튼 생성 함수/상수
 const butCreate = () => {
     console.log("버튼 생성")
 

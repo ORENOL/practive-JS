@@ -49,7 +49,7 @@
 <br/><br/>
 
 <details markdown="1">
-<summary>자바스크립트 03 진행중</summary>
+<summary>자바스크립트 03 완료</summary>
 
 ### <a href="https://github.com/ORENOL/practive-JS/tree/main/03">03 폴더</a>
 
@@ -68,10 +68,27 @@
         * document.querySelector("태그").remove
     * 요소를 수정하기
         * document.querySelector("태그").innerHTML = "수정 내용"
+    * 변수 선언 방법
+        * var, let
+    * 반복문 방법
+        * for, for in, for Each, for of
+
+</details>
+
+<br/><br/>
+
+<details markdown="1">
+<summary>자바스크립트 04 완료</summary>
+
+### <a href="https://github.com/ORENOL/practive-JS/tree/main/03">03 폴더</a>
+
+<hr/>
+
+* 8월 24일 학습 내용
+    * 주사위 던지기 버튼 만들기
+        * adiv.innerHTML = `<img src="./static/images/${n}.png">`;
 
 
-
-    
 </details>
 
 <br/><br/>
