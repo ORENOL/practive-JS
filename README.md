@@ -9,7 +9,7 @@
 - VSCode
     - Live Server
 
-## TODO
+## 학습내용
 <details markdown="1">
 <summary>"pico.css 활용 예제"  완료</summary>
 
@@ -30,13 +30,46 @@
 <br/><br/>
 
 <details markdown="1">
-<summary>두번째 연습 진행 중</summary>
+<summary>자바스크립트 02 완료</summary>
 
-### <a href="">02 폴더</a>
+### <a href="https://github.com/ORENOL/practive-JS/tree/main/02">02 폴더</a>
 
 <hr/>
 
-- [ ] 자바스크립트 구현중
+* 8월 24일 학습 내용
+    * 화살표 함수
+        * () => {} 
+    * 변수에 함수 할당 
+        * const 변수이름 = () => {}
+
+
+    
+</details>
+
+<br/><br/>
+
+<details markdown="1">
+<summary>자바스크립트 03 진행중</summary>
+
+### <a href="https://github.com/ORENOL/practive-JS/tree/main/03">03 폴더</a>
+
+<hr/>
+
+* 8월 24일 학습 내용
+    * 버튼 클릭시 함수 실행
+        * onclick="함수이름()"
+    * 요소를 만들고 태그에 연결
+        * createElement, createTextNode, append
+    * 요소를 조회하기
+        * document.querySelector("태그")
+    * 요소를 수정하기
+        * document.querySelector("태그").innerHTML = "수정 내용"
+    * 요소를 삭제하기
+        * document.querySelector("태그").remove
+    * 요소를 수정하기
+        * document.querySelector("태그").innerHTML = "수정 내용"
+
+
 
     
 </details>
