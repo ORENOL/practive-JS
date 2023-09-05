@@ -80,13 +80,36 @@
 <details markdown="1">
 <summary>자바스크립트 04 완료</summary>
 
-### <a href="https://github.com/ORENOL/practive-JS/tree/main/03">03 폴더</a>
+### <a href="https://github.com/ORENOL/practive-JS/tree/main/04">04 폴더</a>
 
 <hr/>
 
 * 8월 24일 학습 내용
     * 주사위 던지기 버튼 만들기
         * adiv.innerHTML = `<img src="./static/images/${n}.png">`;
+        
+
+* 9월 05일 학습 내용
+    * 주사위 숫자 맞추기
+        * document.querySelector("button");
+        * dice2(parseInt(item.value));
+
+
+</details>
+
+<br/><br/>
+
+<details markdown="1">
+<summary>자바스크립트 05 완료</summary>
+
+### <a href="https://github.com/ORENOL/practive-JS/tree/main/05">05 폴더</a>
+
+<hr/>
+
+* 9월 05일 학습 내용
+    * 주사위 던지기 버튼 만들기
+        * adiv.innerHTML = `<img src="./static/images/${n}.png">`;
+        * document.querySelector("button");
 
 
 </details>
