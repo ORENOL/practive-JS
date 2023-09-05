@@ -108,7 +108,7 @@
 
 * 9월 05일 학습 내용
     * 섭씨 화씨 온도 계산하기
-        * textContents 와 value의 차이
+        * textContents 와 value의 차이 (form 값은 value로 가져오기)
         * if (sel1.value == "C") cTof(parseFloat(txt1.value));
 
 
