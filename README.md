@@ -107,9 +107,9 @@
 <hr/>
 
 * 9월 05일 학습 내용
-    * 주사위 던지기 버튼 만들기
-        * adiv.innerHTML = `<img src="./static/images/${n}.png">`;
-        * document.querySelector("button");
+    * 섭씨 화씨 온도 계산하기
+        * textContents 와 value의 차이
+        * if (sel1.value == "C") cTof(parseFloat(txt1.value));
 
 
 </details>
