@@ -1,0 +1,27 @@
+
+article {
+    max-height: 40%;
+    max-width: 40%;
+    margin-left: 25rem;
+}
+
+header {
+    display: grid;
+    place-items: center;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid > div {
+    width : 100px;
+    height: 100px;
+    border: 1px solid gray;
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
