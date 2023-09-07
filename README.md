@@ -30,7 +30,7 @@
 <br/><br/>
 
 <details markdown="1">
-<summary>자바스크립트 02 완료</summary>
+<summary>버튼 클릭</summary>
 
 ### <a href="https://github.com/ORENOL/practive-JS/tree/main/02">02 폴더</a>
 
@@ -49,7 +49,7 @@
 <br/><br/>
 
 <details markdown="1">
-<summary>자바스크립트 03 완료</summary>
+<summary>버튼 클릭 심화 </summary>
 
 ### <a href="https://github.com/ORENOL/practive-JS/tree/main/03">03 폴더</a>
 
@@ -78,7 +78,7 @@
 <br/><br/>
 
 <details markdown="1">
-<summary>자바스크립트 04 완료</summary>
+<summary>주사위 던지기</summary>
 
 ### <a href="https://github.com/ORENOL/practive-JS/tree/main/04">04 폴더</a>
 
@@ -87,7 +87,9 @@
 * 8월 24일 학습 내용
     * 주사위 던지기 버튼 만들기
         * adiv.innerHTML = `<img src="./static/images/${n}.png">`;
-        
+        * Math.floor(Math.random() * 6)
+
+<br/>        
 
 * 9월 05일 학습 내용
     * 주사위 숫자 맞추기
@@ -100,7 +102,7 @@
 <br/><br/>
 
 <details markdown="1">
-<summary>자바스크립트 05 완료</summary>
+<summary>form으로 섭씨 화씨 계산기</summary>
 
 ### <a href="https://github.com/ORENOL/practive-JS/tree/main/05">05 폴더</a>
 
@@ -110,6 +112,60 @@
     * 섭씨 화씨 온도 계산하기
         * textContents 와 value의 차이 (form 값은 value로 가져오기)
         * if (sel1.value == "C") cTof(parseFloat(txt1.value));
+
+
+</details>
+
+<br/><br/>
+
+<details markdown="1">
+<summary>문자열 다루기</summary>
+
+### <a href="https://github.com/ORENOL/practive-JS/tree/main/06">06 폴더</a>
+
+<hr/>
+
+* 9월 05일 학습 내용
+    * 문자열 다루기 // 회문 확인, 숫자 더하기
+        * s=txt1.value.split("").reverse().join("") // split 방식
+
+        * for (let i=txt1.value.length-1; i>=0; i--) // 역 loop 방식
+
+        * if (!isNaN(num)) sum = sum + parseInt(num) // 문자열 속 숫자 더하기
+    * 배열 다루기  // 중요 키워드 : *filter* , *map*
+        * e.preventDefault();  // 새로고침 방지
+
+        * txt1.value = arr.join(","); // 배열을 join으로 합쳐 넣기
+
+        * '사과삭제' : arr = (arr.filter((item) => item != '🍧')); // 필터로 특정워드를 제외하고 새 배열에 넣어줌
+        * '사과' : arr = (arr.map((item) => item == '🍧' ? '🍕' : item // map 콜백함수 및 삼항연산자
+
+
+</details>
+
+<br/><br/>
+
+
+<details markdown="1">
+<summary>3x3 폭탄 게임</summary>
+
+### <a href="https://github.com/ORENOL/practive-JS/tree/main/07">07 폴더</a>
+
+<hr/>
+
+* 9월 05일 학습 내용
+    * 박스 클릭시 하트 또는 폭탄이 나오는 시스템
+        * 각 박스의 id를 슬라이스하여 박스 텍스트로 만드는 초기화 함수 만들기 (init)
+
+        * 배열을 만들고 박스 클릭시 pop하여 특정 숫자 pop시 폭탄 터짐
+        * 사진 넣기 -> innerHTML = "주소"
+        * 사진 빼기 -> item.textContent = "아무거나"
+    * 문제점 해결 사항
+        * 이미 누른 곳 다시 누를 수 있음 // 해결됨 -> if(isNaN(parseInt(item.textContent)))
+
+        * 마지막에 위치한 폭탄이 하트로 안 바뀜 // 해결됨 -> else if (arr.length = 1 & num == 9)
+        * 폭탄 섞기를 눌러도 이미지 초기화가 안됨  // 해결됨 -> textContent = "박스 숫자"
+        * 폭탄 이미지의 크기가 박스를 벗어남  // 해결됨 -> width='90%'
 
 
 </details>
