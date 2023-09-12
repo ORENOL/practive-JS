@@ -207,6 +207,7 @@
 
         * appendchild
         * fetch(url) .then .then --> async await
+        * https://k-training-heatwaveshelter.web.app - 파이어베이스 배포
     * 개선점
         * 테이블의 크기를 조절하여 텍스트에 맞도록 하기
 
