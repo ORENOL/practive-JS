@@ -1,0 +1,34 @@
+th{
+    text-align: center;
+    background-color: rgba(64, 255, 128, 0.466) 
+}
+
+.numtd {
+    display: inline-flex;
+    width: 100%;
+    justify-content: right;
+    align-items: right;
+}
+
+.inten0, .inten1 {
+    display: inline-flex;
+    width: 10%;
+    margin-left: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.inten0 {
+    color: red;
+}
+.inten1 {
+    color: blue;
+}
+
+.radios {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
