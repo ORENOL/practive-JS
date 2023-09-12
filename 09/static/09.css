@@ -1,0 +1,15 @@
+.h2Sel1 {
+    font-weight: bold;
+    color: brown;
+}
+
+.exit {
+    font-weight: bold;
+    font-size: x-large;
+    color: red;
+}
+
+tr > td{
+    white-space: nowrap;
+}
+
