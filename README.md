@@ -172,6 +172,48 @@
 
 <br/><br/>
 
+<details markdown="1">
+<summary>영화 top10 API</summary>
+
+### <a href="https://github.com/ORENOL/practive-JS/tree/main/08">08 폴더</a>
+
+<hr/>
+
+* 9월 07일 학습 내용
+    * 날짜를 선택하면 해당일의 top10 영화를 보여주는 시스템
+        * top10 영화 목록을 api로 불러와서 테이블로 나타내는 법을 앎
+
+        * 태그를 작성하여 innerHTML로 나타냄
+        * fetch(url) .then .then
+    * 개선점
+        * radio를 추가하여 검색결과에 조건을 추가하기
+        * 검색결과를 클릭하여 상세정보를 출력하기
+
+
+</details>
+
+<br/><br/>
+
+<details markdown="1">
+<summary>무더위 쉼터 조회하기</summary>
+
+### <a href="https://github.com/ORENOL/practive-JS/tree/main/08">08 폴더</a>
+
+<hr/>
+
+* 9월 12일 학습 내용
+    * 시, 구, 동을 선택하여 그 위치에 해당하는 무더위 쉼터를 테이블로 나타냄
+        * 시를 선택하면 그 시에 소속된 구를 선택할 수 있도록 함
+
+        * appendchild
+        * fetch(url) .then .then --> async await
+    * 개선점
+        * 테이블의 크기를 조절하여 텍스트에 맞도록 하기
+
+
+</details>
+
+<br/><br/>
 ## Ref.
 - [.gitignore](https://www.toptal.com/developers/gitignore)
 - [pico.css](https://picocss.com/)
